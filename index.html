@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+<meta charset="UTF-8">
+<title>Horror Maze Game</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Main Menu -->
+<div id="mainMenu">
+  <img id="menuBg" src="menu-background.png" alt="Background">
+  <div class="menuButtons">
+    <img class="btn" id="startBtn" src="start-button.png" alt="Start">
+    <img class="btn" id="optionsBtn" src="options-button.png" alt="Options">
+    <img class="btn" id="exitBtn" src="exit-button.png" alt="Exit">
+  </div>
+</div>
+
+<!-- اللعبة -->
+<div id="viewport" style="display:none;">
+  <div id="inner">
+    <div id="game"></div>
+    <div id="dark"></div>
+    <div id="noise"></div>
+  </div>
+</div>
+
+<!-- Joystick دائري -->
+<div id="joystickContainer">
+  <div id="joystick"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
